@@ -1,0 +1,23 @@
+{% extends '../base.html' %}
+
+{% block title %} Tasks List {% endblock %}
+
+{% block content %}
+<div class="offset-1 col-10 list-div">
+    <h1>Tasks List</h1>
+    <div class="container dashboard">
+        <div class="col-4 dashboard-box" id="dashboard-lastdays">
+            <h4> End tasks in the last 30 days </h4>
+            <span>{{  tasks_done_recently }}</span>
+        </div>
+        <div class="col-4 dashboard-box" id="dashboard-done">
+            <h4> Done tasks </h4>
+            <span>{{ tasks_done }}</span>
+        </div>
+        <div class="col-4 dashboard-box" id="dashboard-doing">
+            <h4> Doing tasks </h4>
+            <span>{{ tasks_doing }}</span>
+        </div>
+    </div>
+</div>
+{% endblock %}

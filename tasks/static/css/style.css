@@ -1,0 +1,238 @@
+.container-fluid{
+    padding: 0;
+}
+
+.container-fluid .row {
+    margin: 0;
+}
+
+/* NavBar */
+
+.navbar {
+    border-bottom: 1px solid #333333;
+    margin-bottom: 20px;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav a.nav-link {
+    color: #333333;
+    letter-spacing: 1px;
+}
+
+/* Add Buttom */
+
+.add-div {
+    background-color: dodgerblue;
+    cursor: pointer;
+    display: inline-block;
+    color: #ffefef;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+/* Add Button */
+#add-link {
+    color: #ffefef;
+    text-decoration: none;
+}
+
+.bi-plus-circle {
+    color: #ffefef;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+/* Search */
+
+.bi-search {
+    position: absolute;
+    top: 12px;
+    right: 26px;
+    cursor: pointer;
+}
+
+.search-div {
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+/* Filter */
+.filter-div {
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+#filter {
+    display: inline-block;
+    width: 200px;
+    margin-left: 10px;
+}
+
+/* Message Delete */
+
+ul.messages {
+    padding: 0;
+}
+
+ul.messages li {
+    list-style: none;
+}
+
+
+/* Tasks list */
+
+.list-div {
+    padding: 0;
+}
+
+.task-list {
+    padding-left: 0;
+}
+
+.task-item {
+    list-style: none;
+    font-size: 20px;
+    height: 50px;
+    padding: 0 15px;
+    padding-top: 10px;
+    border-bottom: 1px dashed #cccccc;
+}
+
+.task-item .done {
+    background-color: #ffefef;
+}
+
+.bi-pencil, .bi-trash, .bi-check2-square, .dash {
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    float: right;
+}
+
+.bi-trash {
+    color: red;
+}
+
+.bi-pencil {
+    color: green;
+}
+
+.bi-check2-square {
+    color: #a41515;
+}
+
+.done .bi-check2-square {
+    color: #054005;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333333;
+    height: 300px;
+    border-top: 2px solid #202020;
+}
+
+footer p {
+    color: #f5f5f5;
+    text-align: center;
+    top: 50%;
+    position: relative;
+}
+
+/* Pagination */
+
+.pagination {
+    margin-bottom: 20px;
+}
+
+.step-links {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.step-links .current {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Login */
+.auth-card {
+    margin-bottom: 30px;
+}
+
+.change-form-p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Dashboard */
+.dashboard {
+    margin-top: 10px;
+    padding: 0;
+    width: 100%;
+    display: block;
+    margin-bottom: 200px;
+}
+
+.dashboard h4 {
+    font-size: 20px;
+}
+
+.dashboard span {
+    font-size: 40px;
+    display: block;
+    width: 100%;
+    margin-bottom: 400px;
+}
+
+.dashboard-box {
+    float: left;
+    background-color: darkgray;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 130px;
+    width: 32%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.dashboard-box:nth-child(2) {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+#dashboard-lastdays {
+    background-color: #5b80b2;
+}
+
+#dashboard-done {
+    background-color: #6DDCBD;
+}
+
+#dashboard-doing {
+    background-color: #c15050;
+}
+
+.dash {
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #6e6eff;
+    display: inline-block;
+    color: #ffefef;
+    padding: 8px;
+    margin-right: 25px;
+}
